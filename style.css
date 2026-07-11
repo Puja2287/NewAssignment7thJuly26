@@ -67,7 +67,26 @@ h1 {
     border-radius:10px;
 }
 
+.img-btn{
+    width:30px;
+    height: 2px;
+    border: ipx solid transparent;
+    border-radius: 4px;
+    background-color: gray;
+    padding: 5px;
+}
 
+.img-div{
+    display: flex;
+    flex-direction: row;
+}
+
+.product-card .img-inner-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
 
 @media  (min-width: 768px) and (max-width: 1024px)   {
