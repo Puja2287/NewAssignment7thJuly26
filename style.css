@@ -79,6 +79,21 @@ h1 {
 .img-div{
     display: flex;
     flex-direction: row;
+    position: relative;  /*added for badge*/
+}
+
+.badge{
+    position: absolute;
+    top:10px;
+    left:5px;
+
+    font-size: 12px;
+    font-weight: 700;
+    padding: 4px;
+
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.496);
+    color: rgb(108, 21, 21);
 }
 
 .product-card .img-inner-div{

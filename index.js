@@ -49,10 +49,13 @@ const displayProduct = (category) => {
 
         const per = Math.round(( Number(element.price) / Number(element.compare_at_price))*100);
 
+        const badge = element.badge_text ? `<span class="badge">${element.badge_text}</span>`:"";
+       
         const card = document.createElement("div");
          card.classList.add("product-card");
             card.innerHTML = `
                         <div class="img-div">
+                        ${badge}
                         <img id="img1-${index}" src="${element.image}" alt="Image not available">
                         <img id="img2-${index}" src="${element.second_image}" alt="Image not available" style="display : none">
                         </div>
