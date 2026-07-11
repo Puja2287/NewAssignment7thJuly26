@@ -62,16 +62,16 @@ const displayProduct = (category) => {
 }
 
 
-btnMen.addEventListener("click", ()=>{
-    displayProduct('Men');
-});
+// btnMen.addEventListener("click", ()=>{
+//     displayProduct('Men');
+// });
 
-btnMen.addEventListener("click", ()=>{
-    displayProduct('Women');
-});
+// btnMen.addEventListener("click", ()=>{
+//     displayProduct('Women');
+// });
 
-btnMen.addEventListener("click", ()=>{
-    displayProduct('Men');
-});
+// btnMen.addEventListener("click", ()=>{
+//     displayProduct('Men');
+// });
 
 
