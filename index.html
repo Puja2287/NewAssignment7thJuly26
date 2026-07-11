@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-cont">
+      <h1>Select Your Choice</h1>
+      <br /><br />
+      <div class="tabs">
+        <button id="btn-men" class="btn" onclick="displayProduct('Men')">
+          Men
+        </button>
+        <button id="btn-women" class="btn" onclick="displayProduct('Women')">
+          Women
+        </button>
+        <button id="btn-kids" class="btn" onclick="displayProduct('Kids')">
+          Kids
+        </button>
+      </div>
+
+      <br /><br />
+
+      <div id="products" class="product-grid"></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
