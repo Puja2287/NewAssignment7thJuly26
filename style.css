@@ -70,7 +70,7 @@ h1 {
 .img-btn{
     width:30px;
     height: 2px;
-    border: ipx solid transparent;
+    border: 1px solid transparent;
     border-radius: 4px;
     background-color: gray;
     padding: 5px;
