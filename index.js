@@ -72,11 +72,13 @@ const displayProduct = (category) => {
                         </div>
                         <div>
                            <p>Rs.${element.price}/-</p>
-                            <p style="text-decoration : line-through ; color : #D3D3D3;">Rs.${element.compare_at_price}/-</p>
+                            <p style="text-decoration : line-through ; color : gray;">Rs.${element.compare_at_price}/-</p>
                             <p style="color : red;">${per}% OFF</p>
                        </div>                        
-                        <br/>                   
-                    <button class="btn">Add to Cart</button>
+                        <br/> 
+                        <div class="cart-btn" >                  
+                            <button class="btn">Add to Cart</button>
+                        </div>
         `;
 
         productsContainer.appendChild(card);

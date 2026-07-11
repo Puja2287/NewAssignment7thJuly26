@@ -96,6 +96,13 @@ h1 {
     color: rgb(108, 21, 21);
 }
 
+.cart-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .product-card .img-inner-div{
     display: flex;
     flex-direction: row;
